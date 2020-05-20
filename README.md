@@ -21,5 +21,5 @@ This exercises aimed to:
 The project consists of four important parts. Click to know more about it:
 - [Live Project](https://lisarosaa.github.io/Exercise-Semantic-Layout/ )
 - [Source](https://github.com/lisarosaa/Exercise-Semantic-Layout)
-- [Index](./index.md)
+- [Index](./index.html)
 - [Development Strategy](./development-strategy.md)
