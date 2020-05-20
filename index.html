@@ -2,65 +2,122 @@
 <html>
 
 <head>
-  <title>Water Scarcity Campaign</title>
-  <meta charset="utf-8">
+    <title>Water Scarcity Campaign</title>
+    <meta charset="utf-8">
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./evaluation/init.js'></script>
+    <!-- Leave this here!  It renders the review buttons  -->
+    <script src='./evaluation/init.js'></script>
 
-  <style>
-    .one-water {
-      width: 200px;
-      height: 120px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1 {
-      font-family:-'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-      color:darkcyan;
-      text-align:center;
-    }
-    h2 {
-      font-family:-'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
-      color:darkcyan;
-    }
-    .text-edit {
-      background-color:lightcyan;
-      font-family:'Courier New', Courier, monospace;
-    }
-    .water-text {
-      color:peru;
-    
-  </style>
+    <style>
+        h1 {
+            font-family: -'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: darkcyan;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: -'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: darkcyan;
+        }
+
+        body {
+            background-color: lightcyan;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        aside {
+            float: right;
+            display: block;
+            width: 25%;
+            background-color: #faf3dd;
+        }
+        .sidetext {
+            padding: 20px;
+        }
+        .video {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            width: 75%;
+        }
+        .article-water {
+            margin:10px;
+        }
+        .one-water {
+            width: 200px;
+            height: 120px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .water-scarcity {
+            width: 50%;
+            float:right;
+            margin: 10px;
+        }
+
+        .water-text {
+            color: #ffa69e;
+        }
+    </style>
 
 </head>
 
 <body>
-  <header>
-    <h1>One Water, One Future</h1>
-  </header>
-  <section>
-    <h2>What is it about?</h2>
-    <p class="text-edit">
-      Water covers 70% of our planet. As human, we tend to think the water is infinite. However, freshwater is only limited in our world.
-      Based on the data, only 3% of our water is fresh water that can we use, 97% of it is tucked in glacier and cannot be used.
-      Some places in the world probably facing a water scarcity due to their own geographical region, climate change phenomenon, 
-      and man-made destruction (ex. groundwater extraction, waste water pollution). <br>
-      <b class="water-text">One Water is a campaign to raise awareness about the availability of safe, reliable, and accessible freshwater and drinking water.</b>
-    </p>
-  </section>
-  <article>
-    <h2>Water Scarcity</h2>
-    <p class="text-edit">Nearly half the global population are already living in potential waterscarce areas at least one month per year 
-      and this could increase to some 4.8–5.7 billion in 2050. About 73% of the affected people live in Asia (69% by 2050) (Burek et al., 2016).
-      Water scarcity explanation according to <a href="https://www.unwater.org/water-facts/scarcity/">UN Water</a>: 
-      <blockquote cite class="text-edit"="https://www.unwater.org/water-facts/scarcity/">
-        "Water scarcity can mean scarcity in availability due to physical shortage, or scarcity in access due to the failure of institutions to ensure a regular supply or due to a lack of adequate infrastructure"</blockquote></p>
-  </article>
-  <footer>
-    <img class="one-water" src="assets/one-water-logo-color.png" alt="One Water Campaign">
-  </footer>
+    <header>
+        <h1>One Water, One Future</h1>
+    </header>
+
+    <aside>
+        <p class="sidetext"> Watch this movie to know more about water issues all over the world!
+            <a href="https://www.youtube.com/watch?v=tlfMBQGZUvQ"><img class="video" src="assets/index.jpeg" alt="A World Without Water Movie"></a>
+        </p>
+    </aside>
+
+    <section class="article-water">
+        <h2>What is it about?</h2>
+        <p>
+            Water covers 70% of our planet. As human, we tend to think the water is infinite. However, freshwater is
+            only limited in our world.
+            Based on the data, only 3% of our water is fresh water that can we use, 97% of it is tucked in glacier and
+            cannot be used.
+            Some places in the world probably facing a water scarcity due to their own geographical region, climate
+            change phenomenon,
+            and man-made destruction (ex. groundwater extraction, waste water pollution). <br>
+            <b class="water-text">One Water is a campaign to raise awareness about the availability of safe, reliable,
+                and accessible freshwater and drinking water.</b>
+        </p>
+    </section>
+
+    <article class="article-water">
+        <h2>Water Scarcity</h2>
+        <p> <img class="water-scarcity" src="assets/Global-Access-to-Water-and-Water-Scarcity-Wells-For-The-World-Inc.jpg"
+        alt="Global Water Scarcity"><b class="water-text">Nearly half the global population are already living in potential water scarce areas </b> at least one month per
+            year
+            and this could increase to some 4.8–5.7 billion in 2050. About 73% of the affected people live in Asia (69%
+            by 2050) (Burek et al., 2016). <br><br>
+            <b class="water-text">Water scarcity explanation according to <a href="https://www.unwater.org/water-facts/scarcity/">UN Water</a>:</b>
+            "Water scarcity can mean scarcity in availability due to physical shortage, or scarcity in access due to the
+            failure of institutions to ensure a regular supply or due to a lack of adequate infrastructure". </p>
+
+        <h2> How to contribute in global water crisis campaign?</h2>
+        <ul>
+            <li>Change your diet, lifestyles and consumption pattern. Reduce your meat consumption.</li>
+            <li>Reduce, Reuse, and Recycle your water.</li>
+            <li>Support new water conservation technologies.</li>
+            <li>Start planting trees in your surroundings.</li>
+            <li>Participate in water crisis campaign. Get to know more about our campaign <a href="http://thevalueofwater.org/content/one-water-one-future">here</a>
+            </li>
+        </ul>
+        </p>
+
+    </article>
+
+    <footer>
+        <img class="one-water" src="assets/one-water-logo-color.png" alt="One Water Campaign">
+    </footer>
 </body>
 
 </html>
